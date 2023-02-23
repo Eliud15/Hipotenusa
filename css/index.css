@@ -1,0 +1,99 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url("../src/fondo5.jpg");
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: fill;
+  overflow-x: hidden;
+}
+main {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+#fromulario {
+  position: relative;
+  width: 500px;
+  height: auto;
+  padding: 20px;
+  background: linear-gradient(to left, #17181d99, #3d3c3ca2);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+#acerca {
+  width: 20px;
+  filter: invert(1);
+  position: absolute;
+  float: right;
+  right: 10px;
+  top: 5px;
+}
+h1,
+h2,
+h4 {
+  text-align: center;
+  color: #ffffff;
+}
+label {
+  margin: 0 auto;
+  color: white;
+}
+input {
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 25px;
+  border-radius: 2rem;
+  outline: none;
+  border: 2px solid #fff;
+  padding: 5px;
+  transition: 0.3s border ease-in-out;
+}
+input[type="submit"] {
+  margin-top: 50px;
+  height: 45px;
+}
+input:hover {
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+  transition: 0.3s all ease-in-out;
+}
+#container-resultado {
+  margin: 20px;
+  width: 90%;
+  height: fit-content;
+  color: #fff;
+}
+footer {
+  margin-top: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+h6 {
+  background-color: #00000072;
+  padding: 2px;
+}
+#wtsa {
+  position: fixed;
+  left: 10px;
+  top: 10px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#wtsa-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 25px lime;
+  cursor: pointer;
+}
