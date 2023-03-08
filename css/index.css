@@ -21,7 +21,7 @@ main {
   width: 500px;
   height: auto;
   padding: 20px;
-  background: linear-gradient(to left, #17181d99, #3d3c3ca2);
+  background: #000;
   border-radius: 20px;
   box-sizing: border-box;
 }
